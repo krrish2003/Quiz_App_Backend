@@ -28,7 +28,7 @@ app.use('/api', router) /** apis */
 
 app.get('/', (req, res ) => {
     try {
-        res.json("Get Request")
+        res.json("Tatakae")
     } catch (error) {
         res.json(error)
     }
